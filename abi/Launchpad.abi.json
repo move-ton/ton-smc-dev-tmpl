@@ -1,0 +1,86 @@
+{
+	"ABI version": 2,
+	"header": ["time"],
+	"functions": [
+		{
+			"name": "constructor",
+			"inputs": [
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "fetchCode",
+			"inputs": [
+				{"name":"_answer_id","type":"uint32"},
+				{"name":"index","type":"uint256"}
+			],
+			"outputs": [
+				{"name":"value0","type":"uint256"},
+				{"name":"value1","type":"cell"}
+			]
+		},
+		{
+			"name": "uploadCode",
+			"inputs": [
+				{"name":"index","type":"uint256"},
+				{"name":"image","type":"cell"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "deploy",
+			"inputs": [
+				{"name":"index","type":"uint256"}
+			],
+			"outputs": [
+				{"name":"deployed","type":"address"}
+			]
+		},
+		{
+			"name": "transfer",
+			"inputs": [
+				{"name":"to","type":"address"},
+				{"name":"value","type":"uint128"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "upgrade",
+			"inputs": [
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "test",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"body","type":"cell"}
+			]
+		},
+		{
+			"name": "version",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"version","type":"uint16"}
+			]
+		},
+		{
+			"name": "repo",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"repo","type":"map(uint256,cell)"}
+			]
+		}
+	],
+	"data": [
+	],
+	"events": [
+	]
+}
